@@ -14,11 +14,11 @@ Restaurant monitoring system that calculates uptime/downtime reports from:
 **Interpolation Algorithm:**
 to solve the sparse data problem, we use
 def calculate_uptime_downtime():
-     - Get business intervals for each day
-     - Find polling data within each interval  
-     - Build timeline: [start] -> [polls] -> [end]
-     - Forward-fill status between consecutive points
-     - Sum up active/inactive durations
+- Get business intervals for each day
+- Find polling data within each interval  
+- Build timeline: [start] -> [polls] -> [end]
+- Forward-fill status between consecutive points
+- Sum up active/inactive durations
 
 **Example Timeline:**
 Business Hours: 9 AM - 6 PM (540 min total)
